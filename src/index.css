@@ -1,0 +1,125 @@
+.list-group-item{
+    background-color:lightslategrey;
+    opacity: 0.5;
+    color:black ;
+}
+.cardb{
+    background-color: lightslategrey;
+    margin-right: 400px;
+}
+.list-group-item.active{
+    border-radius: 15px;
+    border: solid brown;
+    background-color: cadetblue;
+}
+.pinput{
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+}
+.sec{
+    background-color: gray;
+}
+.newdiv{
+
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.newdiv2{
+    margin: 250px;
+    bottom: 100px;
+    text-align: center;
+    margin-top:340px;
+}
+.completed{
+    background-color: steelblue;
+}
+.todo{
+    margin: 100px;
+    padding: 100px;
+}
+.formm{
+   padding-bottom: 20px;
+    text-align: center;
+}
+.btn{
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 80px;
+    margin: 7px;
+    margin-left:25px;
+    background-color: cadetblue;
+    position: inherit;
+
+    border: solid darkslategray;
+}
+.ebtn{
+    background-color: cadetblue;
+}
+.ul{
+    background-color: darkgrey;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: darkslategray;
+}
+.input{
+    margin-top: 100px;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.fbtn{
+    background-color:cadetblue;
+    padding: 7px;
+    border: solid darkslategray;
+    border-radius: 15px;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+.imgl{
+   margin-left: 170px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 2s;
+    opacity: .5;
+
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+.imgl:hover{
+    height:150px;
+    width:200px;
+    opacity: 1.0;
+}
+.imgld{
+    height: 150px;
+    background: linear-gradient(to right, darkcyan ,lightcoral );
+}
+
+.popupp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+.popupinner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+}
